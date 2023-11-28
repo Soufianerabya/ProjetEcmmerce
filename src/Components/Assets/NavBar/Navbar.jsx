@@ -1,14 +1,16 @@
 import React from 'react'
 import './NavBar.css'
-import logo from'../logo.png'
+import logo from '../logo.png'
 import { useState } from 'react'
-import cart_icon from'../cart_icon.png'
+import cart_icon from '../cart_icon.png'
 import { Link } from 'react-router-dom'
 const Navbar = () => {
 
   const [menu,setMenu]=useState("shop");
 
+
   return (
+
     <div className='navbar'>
       <div className='nav-logo'>
         <img src={logo} alt=""/>
